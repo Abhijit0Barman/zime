@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `Homepage` that serves as the main page of a web
+application. Here's a breakdown of what the code is doing: */
 import { useState, useEffect } from "react";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { Input, Table, Select } from "antd";
@@ -68,30 +70,6 @@ const Homepage = () => {
         setSearchParams({ ...searchParams, search: searchText });
     };
 
-    // const columns = [
-    //     {
-    //         title: "Title",
-    //         dataIndex: "title",
-    //         key: "title",
-    //     },
-    //     {
-    //         title: "Body",
-    //         dataIndex: "body",
-    //         key: "body",
-    //     },
-    //     {
-    //         title: "Tags",
-    //         dataIndex: "tags",
-    //         key: "tags",
-    //         render: (tags) => (
-    //             <>
-    //                 {tags.map((tag,i) => (
-    //                     <span key={i}>{tag + ", "}</span>
-    //                 ))}
-    //             </>
-    //         ),
-    //     },
-    // ];
 
     const columns = [
         {
